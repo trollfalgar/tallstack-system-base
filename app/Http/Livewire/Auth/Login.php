@@ -31,7 +31,7 @@ class Login extends Component
 
     public function render(): View
     {
-        $title = __('Acessar sua conta');
+        $title = __('Acessar sua Conta');
 
         return view('livewire.auth.login', ['title' => $title])
             ->extends('layouts.auth', ['title' => $title]);

@@ -70,7 +70,7 @@ class Reset extends Component
 
     public function render()
     {
-        $title = __('Alterar senha de acesso');
+        $title = __('Alterar Senha de Acesso');
 
         return view('livewire.auth.reset', ['title' => $title])
             ->extends('layouts.auth', ['title' => $title]);

@@ -36,7 +36,7 @@ class Email extends Component
 
     public function render(): View
     {
-        $title = __('Resetar sua senha');
+        $title = __('Resetar sua Senha');
 
         return view('livewire.auth.email', ['title' => $title])
             ->extends('layouts.auth', ['title' => $title]);
