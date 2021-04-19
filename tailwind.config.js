@@ -44,7 +44,10 @@ module.exports = {
         },
     },
     variants: {
-        extend: {},
+        extend: {
+            padding: ['hover'],
+            translate: ['group-hover'],
+        },
     },
     plugins: [
         require('@tailwindcss/forms'),
